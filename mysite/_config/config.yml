@@ -1,0 +1,28 @@
+---
+Name: mysite
+After:
+  - "framework/*"
+  - "cms/*"
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SSViewer:
+  theme: "one-ring"
+Debug:
+  friendly_error_httpcode: true
+SiteConfig:
+  extensions:
+    - SiteConfigExtension
+---
+Only:
+  environment: dev
+---
+Email:
+  send_all_emails_to: dewinurayundari.dna@gmail.com
+---
+Except:
+  environment: dev
+---
+Email:
+  bcc_all_emails_to: dewinurayundari.dna@gmail.com

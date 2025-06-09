@@ -1,0 +1,10 @@
+sudo: false
+
+php:
+  - 7.4
+
+env:
+  - DB=mysql
+
+before_scripts:
+  - composer self-update || true
