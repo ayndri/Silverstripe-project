@@ -1,0 +1,9 @@
+Blog:
+  extensions:
+    - BlogExtension
+BlogPost:
+  extensions:
+    - BlogPostExtension
+BlogCategory:
+  extensions:
+    - BlogCategoryExtension
