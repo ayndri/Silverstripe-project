@@ -11,3 +11,7 @@ _ss_environment.php
 /assets/
 /siteconfig/
 /reports/
+/blog
+/blog-featured-post
+/tagfield
+/lumberjack
